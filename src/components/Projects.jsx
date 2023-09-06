@@ -4,7 +4,7 @@ const datas = [
   {
     projectName: "Conversation Insights",
     description:
-      "Pharmacy App is an e-commerce web application for selling products and medicines",
+      "",
     image: "/conversation.png",
     link: "https://github.com/aramattamara/Conversation-Insights",
     tags: ["Python3", "Flask", "PostgreSQL", "SQLAlchemy", "React JS", "Bootstrap", "JQuery", "Jinja2", "HTML5/CSS3", "Telegram API", "Chart.js"],

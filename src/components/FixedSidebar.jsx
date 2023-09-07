@@ -1,6 +1,3 @@
-import {NavLink} from "react-router-dom";
-import {Link} from "react-scroll";
-
 export default function FixedSidebar() {
   return (
     <div className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
@@ -20,7 +17,7 @@ export default function FixedSidebar() {
 
       <div className="hidden lg:block">
         <div className="flex flex-col gap-4 text-slate-400">
-          <Link to="/aboutme" smooth={true}>
+          <a href="#aboutme">
             <div className="flex gap-2 items-center ">
               <div className="w-11">
                 <svg
@@ -40,9 +37,9 @@ export default function FixedSidebar() {
               </div>
               <p className="headline ">About Me</p>
             </div>
-          </Link>
+          </a>
 
-          <Link to="#myskills">
+          <a href="#myskills">
             <div className="flex gap-2 items-center">
               <div className="w-11">
                 <svg
@@ -64,9 +61,9 @@ export default function FixedSidebar() {
                 My Skills
               </p>
             </div>
-          </Link>
+          </a>
 
-          <Link to="#myprojects">
+          <a href="#myprojects">
             <div className="flex gap-2 items-center">
               <div className="w-11">
                 <svg
@@ -88,7 +85,7 @@ export default function FixedSidebar() {
                 My Projects
               </p>
             </div>
-          </Link>
+          </a>
         </div>
       </div>
 
@@ -97,10 +94,10 @@ export default function FixedSidebar() {
           <img src="/icon-linkedin.png" width={30} height={30} alt="linkedin" />
         </a>
         <a href="https://medium.com/@aramattamara" target="blank">
-          <img src="/icon-medium.png" width={30} height={30} target="medium" />
+          <img src="/icon-medium.png" width={30} height={30} alt="medium" />
         </a>
         <a href="https://github.com/aramattamara" target="blank">
-          <img src="/icon-git.png" width={30} height={30} target="github" />
+          <img src="/icon-git.png" width={30} height={30} alt="github" />
         </a>
       </div>
     </div>

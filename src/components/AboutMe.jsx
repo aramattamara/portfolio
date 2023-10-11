@@ -22,7 +22,7 @@ export default function AboutMe() {
       <br />
       <br />
       <Link
-        // to=""
+         to="Tamara_Lazerka_resume.pdf"
         target="blank"
       >
         <div className="flex gap-4 cursor-pointer">

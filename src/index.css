@@ -34,3 +34,8 @@ html {
   font-weight: 700;
   color: rgb(90, 174, 252);
 }
+
+.portfolioImg{
+  border-radius: 10px;
+  border: solid white 1px;
+}

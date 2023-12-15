@@ -24,7 +24,7 @@ export default function CardProject({ projectName= "",
                 width={300}
                 height={50}
                 alt={projectName}
-                className="mx-auto lg:mx-0"
+                className="mx-auto lg:mx-0 portfolioImg"
               />
             </div>
 
